@@ -1,28 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/</loc>
-    <lastmod>2009-10-06T16:31:37+02:00</lastmod>
-  </url>
-  <url>
-    <loc>/about.html</loc>
-    <lastmod>2009-10-06T16:38:45+02:00</lastmod>
-  </url>
-  <url>
     <loc>/articles.html</loc>
     <lastmod>2009-10-06T17:15:03+02:00</lastmod>
+  </url>
+  <url>
+    <loc>/</loc>
+    <lastmod>2009-10-06T17:53:39+02:00</lastmod>
+  </url>
+  <url>
+    <loc>/info/features.html</loc>
+    <lastmod>2009-10-06T17:54:51+02:00</lastmod>
+  </url>
+  <url>
+    <loc>/info/download.html</loc>
+    <lastmod>2009-10-07T01:24:48+02:00</lastmod>
+  </url>
+  <url>
+    <loc>/info/contribute.html</loc>
+    <lastmod>2009-10-06T18:58:31+02:00</lastmod>
+  </url>
+  <url>
+    <loc>/info/community.html</loc>
+    <lastmod>2009-10-07T01:21:44+02:00</lastmod>
+  </url>
+  <url>
+    <loc>/info/about.html</loc>
+    <lastmod>2009-10-06T18:03:42+02:00</lastmod>
   </url>
   <url>
     <loc>/blog/2009/10/</loc>
     <lastmod>2009-10-06T01:10:08+02:00</lastmod>
   </url>
   <url>
-    <loc>/blog/2009/10/06/ejemplo.html</loc>
-    <lastmod>2009-10-06T01:10:20+02:00</lastmod>
-  </url>
-  <url>
     <loc>/blog/2009/10/06/kirikiki.html</loc>
     <lastmod>2009-10-06T02:17:28+02:00</lastmod>
+  </url>
+  <url>
+    <loc>/blog/2009/10/06/ejemplo.html</loc>
+    <lastmod>2009-10-06T01:10:20+02:00</lastmod>
   </url>
   <url>
     <loc>/blog/2009/10/06/canela.html</loc>

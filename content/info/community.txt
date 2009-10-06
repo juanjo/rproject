@@ -1,0 +1,57 @@
+---
+title:      Community
+created_at: 2009-10-07 00:32:17.440774 +02:00
+filter:
+  - erb
+  - textile
+---
+h2. R-Project is Open Source
+
+R is licensed under the Free Software Foundation's GNU General Public License, which means you are free to use it for commercial or non-commercial purposes. You are encouraged to modify it further to suit your needs. There are no licensing fees associated with the use of R. There is nothing to buy and there are no hidden costs. Our users are all running the same version of the software, so there is no special <i>"community edition"</i> with less features.
+
+h2. R-Project is a Community
+
+
+<div class="column span-11 append-2 first">
+  <h3 class='mailing_lists'><%= link_to 'Mailing Lists', '/community/mailing_lists.html' %></h3>
+  <div class="column span-2 first">
+    <img src='/images/icons/mail.png' height='60' />
+  </div>
+  <div class="column span-9 last">
+    <p>R-Project has an active mailing list. R developers will often help answer questions on this user list. Users are also encouraged to participate and help one another with their questions.</p>
+  </div>
+</div>
+
+<div class="column span-11 last">
+  <h3 class='mailing_lists'><%= link_to 'Developers', '/developer/index.html.erb' %></h3>
+  <div class="column span-2 first">
+    <img src='/images/icons/rdeveloper.png' height='60' />
+  </div>
+  <div class="column span-9 last">
+    <p>This site is intended as an intermediate repository for more or less finalized ideas and plans for the R statistical system.</p>
+  </div>
+</div>
+
+
+
+
+
+<div class="column span-11 append-2 first">
+  <h3 class='mailing_lists'><%= link_to 'Twitter', 'http://twitter.com/rproject' %></h3>
+  <div class="column span-2 first">
+    <img src='/images/icons/twitter.png' height='60' />
+  </div>
+  <div class="column span-9 last">
+    <p>You can follow the R-project on Twitter (<%= link_to '@rproject', 'http://twitter.com/rproject' %>). This will keep you informed of changes to the source code, issue tracker and website blog.</p>
+  </div>
+</div>
+
+<div class="column span-11 last">
+  <h3 class='mailing_lists'><%= link_to 'Conferences', '/conferences/index.html' %></h3>
+  <div class="column span-2 first">
+    <img src='/images/icons/conference.png' height='60' />
+  </div>
+  <div class="column span-9 last">
+    <p>The R project actively supports two conference series, organized regularly by members from the R community: useR! - providing a forum to the R user community - and DSC - a platform for developers of statistical software.</p>
+  </div>
+</div>

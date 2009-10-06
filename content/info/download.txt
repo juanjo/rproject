@@ -1,0 +1,17 @@
+---
+title:      Download
+created_at: 2009-10-07 01:22:32.703459 +02:00
+filter:
+  - erb
+  - textile
+---
+
+<div class="column span-24 first last">
+  <div class="column span-5 first">
+    <img src='/images/icons/download.png' />
+  </div>
+  <div class="column span-19 last">
+    <h2>Download</h2>
+    <p>R-Project has an active mailing list. R developers will often help answer questions on this user list. Users are also encouraged to participate and help one another with their questions.</p>
+  </div>
+</div>

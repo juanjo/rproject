@@ -52,7 +52,7 @@ filter:    erb
   <div class="container" id='header'>
     <div id='menu' class="column span-18 first">
 		<ul class='nav'>
-		  <li><%= link_to 'Home', '/' %></li>
+		  <li><%= link_to 'Homepage', '/' %></li>
           <li class="index"><a href="index.html" onclick="guideMenu(); return false;" id="guidesMenu">Guides Index</a>
 		
 		          <div id="guides" class="clearfix" style="display: none;">
@@ -92,7 +92,7 @@ filter:    erb
 		</div>		
 		
 		</li>
-		  <li><%= link_to 'Contribute', '#' %></li>
+		  <li><%= link_to 'Contribute', '/info/contribute.html' %></li>
 		  <li><%= link_to 'Credits', '#' %></li>						
 		</ul>	
     </div>
@@ -106,36 +106,26 @@ filter:    erb
 
 <div id='menu-bar'>
   <div class="container">
-    <div id='menu' class="column span-4 first">
+    <div id='menu' class="column span-6 append-1 first">
 		<ul>
-		  <li><%= link_to "What's is R?", 'about.html' %></li>
-		  <li><%= link_to 'Contributors', '#' %></li>
+		  <li><%= link_to "Overview", '/info/about.html' %></li>
+		  <li><%= link_to 'Features', '/info/features.html' %></li>
 		  <li><%= link_to 'Screenshots', '#' %></li>
-		  <li><%= link_to "What's new in R?", 'articles.html' %></li>						
+		  <li><%= link_to "Blog!", '/articles.html' %></li>						
 		</ul>	
     </div>
 
-    <div id='menu' class="column span-4">
+    <div id='menu' class="column span-6">
 		<ul>
-		  <li><%= link_to 'Manuals', '#' %></li>
-		  <li><%= link_to 'FAQ', '#' %></li>
-		  <li><%= link_to 'The R Journal', '#' %></li>
-		  <li><%= link_to 'Wiki', '#' %></li>					
+		  <li><%= link_to 'Documentation', '#' %></li>
+		  <li><%= link_to 'Community', '/info/community.html' %></li>
+		  <li><%= link_to 'Support', '#' %></li>
+		  <li><%= link_to 'Download', '/info/download.html' %></li>					
 		</ul>
     </div>
 
-    <div id='menu' class="column span-4">
-		<ul>
-		  <li><%= link_to 'Home', '#' %></li>
-		  <li><%= link_to 'Guides Index', '#' %></li>
-		  <li><%= link_to 'Contribute', '#' %></li>
-		  <li><%= link_to 'Credits', '#' %></li>						
-		</ul>
-    </div>
-
-
-    <div id='logo' class="column prepend-4 span-8 last">
-      <h2>The R Project</h2>
+    <div id='logo' class="column prepend-3 span-8 last">
+d
     </div>
   </div>
 </div>

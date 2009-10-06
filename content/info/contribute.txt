@@ -1,0 +1,109 @@
+---
+title:      Contribute to the R Project
+created_at: 2009-10-06 18:04:40.881221 +02:00
+filter:
+  - erb
+  - textile
+---
+h2. <%= h(@page.title) %>
+
+<div id='contribution'>
+
+<div class="column span-12 first">
+<h3 class='quality'>
+  Quality
+  <span class='summary'> help to make a better project, better looking and with new features</span>
+</h3>
+
+
+<ul>
+  <li>Submit bug reports</li>
+  <li>Suggest new features and options</li>
+  <li>Suggest ways to improve the framework (maybe comparing it to similar OS or comercial projects)</li>
+  <li>Submit some artwork (icons, backgrounds, logos) to use in the program</li>
+  <li>Correct spelling and grammar mistakes in documentation</li>
+  <li>Help maintain a web site for an Open Source project</li>
+</ul>
+</diV>
+
+<div class="column span-12 last">
+<h3 class='documentation'>
+  Documentation
+  <span class='summary'>always we have insufficient documentation, :P</span>
+</h3>
+
+
+
+<ul>
+  <li>Submit bug reports</li>
+  <li>Suggest new features and options</li>
+  <li>Suggest ways to improve the framework (maybe comparing it to similar OS or comercial projects)</li>
+  <li>Submit some artwork (icons, backgrounds, logos) to use in the program</li>
+  <li>Correct spelling and grammar mistakes in documentation</li>
+  <li>Help maintain a web site for an Open Source project</li>
+</ul>
+</diV>
+
+
+<div class="column span-12 first">
+<h3 class='support'>
+  Support
+  <span class='summary'>everybody need it at least once. Let programmer do their work while you help other people</span>
+</h3>
+
+
+<ul>
+  <li>Answer questions on forums, mailing lists or IRC channels</li>
+  <li>Contribute to (or start) an online support group</li>
+  <li>Help other people learn how to use the program (or programming library)</li>
+  <li>Write HOWTOS and post them in related forums or your own blog (you can find more info in "How To Write a Good Howto" post)</li>
+</ul>
+</diV>
+
+<div class="column span-12 last">
+<h3 class='publicity'>
+  Publicity
+  <span class='summary'>if the project gets popular there will be more people wanting to contribute</span>
+</h3>
+
+<ul>
+  <li>Package the application for a particular Linux distro (or other OS)</li>
+  <li>Convince people to chose R when possible</li>
+  <li>Write reviews</li>
+  <li>Write about new ways of using R</li>
+  <li>Banners on your website</li>
+</ul>
+</diV>
+
+
+<div class="column span-12 first">
+<h3 class='appreciation'>
+  Appreciation
+  <span class='summary'>it's an extra way to contribute but may be the most important</span>
+</h3>
+
+<ul>
+  <li>Express your appreciation/love to developers (through email or forum post)</li>
+  <li>Send the programmers post cards</li>
+  <li>Give a project or developer a gift (some have wish lists for this)</li>
+  <li>Be polite when reporting bugs or asking for new features; developers has no obligation to do it after all</li>
+</ul>
+</diV>
+
+
+<div class="column span-12 last">
+<h3 class='money'>
+  Money
+  <span class='summary'>but there are other ways to contribute money</span>
+</h3>
+
+<ul>
+  <li>Send a developer, project or company some money</li>
+  <li>Hire Free Software developers</li>
+  <li>Contribute hardware</li>
+  <li>Contribute bandwidth</li>
+  <li>Buy products from companies that support R-Project</li>
+</ul>
+</diV>
+
+</div>

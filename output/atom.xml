@@ -5,7 +5,7 @@
   <subtitle>A really swell blog built with Webby</subtitle>
   <link href="http://fake-n-site.org/content/" rel="self" />
   <link href="http://fake-n-site.org/" />
-  <updated>2009-10-06T17:15:03+02:00</updated>
+  <updated>2009-10-07T01:37:35+02:00</updated>
   <author>
     <name>Author's Name</name>
     <email>author@fake-n-site.org</email>
@@ -62,7 +62,7 @@
     <content type="html">&lt;h2&gt;10&lt;/h2&gt;
 
 &lt;div class=&quot;article&quot;&gt;
-  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/kirikiki.html&quot;&gt;Kirikiki&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
+  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/kirikiki&quot;&gt;Kirikiki&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
 
   &lt;div class=&quot;body&quot;&gt;
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.&lt;/p&gt;
@@ -75,7 +75,7 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;article&quot;&gt;
-  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/canela.html&quot;&gt;R version 2.9.2 has been released&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
+  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/canela&quot;&gt;R version 2.9.2 has been released&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
 
   &lt;div class=&quot;body&quot;&gt;
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.&lt;/p&gt;
@@ -88,7 +88,7 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;article&quot;&gt;
-  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/ejemplo.html&quot;&gt;Esto es un simple ejemplo&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
+  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/ejemplo&quot;&gt;Esto es un simple ejemplo&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
 
   &lt;div class=&quot;body&quot;&gt;
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.&lt;/p&gt;
@@ -111,7 +111,7 @@
     <content type="html">&lt;h2&gt;2009&lt;/h2&gt;
 
 &lt;div class=&quot;article&quot;&gt;
-  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/kirikiki.html&quot;&gt;Kirikiki&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
+  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/kirikiki&quot;&gt;Kirikiki&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
 
   &lt;div class=&quot;body&quot;&gt;
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.&lt;/p&gt;
@@ -124,7 +124,7 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;article&quot;&gt;
-  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/canela.html&quot;&gt;R version 2.9.2 has been released&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
+  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/canela&quot;&gt;R version 2.9.2 has been released&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
 
   &lt;div class=&quot;body&quot;&gt;
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.&lt;/p&gt;
@@ -137,7 +137,7 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;article&quot;&gt;
-  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/ejemplo.html&quot;&gt;Esto es un simple ejemplo&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
+  &lt;h1&gt;&lt;a href=&quot;/blog/2009/10/06/ejemplo&quot;&gt;Esto es un simple ejemplo&lt;/a&gt;&lt;span class=&quot;date&quot;&gt;(2009-10-06)&lt;/span&gt;&lt;/h1&gt;
 
   &lt;div class=&quot;body&quot;&gt;
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.&lt;/p&gt;
