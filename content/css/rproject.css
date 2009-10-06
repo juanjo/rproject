@@ -4,13 +4,13 @@ filter:    erb
 layout:    nil   # no layout
 
 color:
-  color1:  "#0D203E"
-  color2:  "#122A50"
-  color3:  "#4082E0"
-  color4:  "#61ADFB"
-  color5:  "#CAEEFD"
+  color1:  "#044777"
+  color2:  "#00325E"
+  color3:  "#5195CE"
+  color4:  "#5195CE"
+  color5:  "#CEE3F1"
   color6:  "#EAF7FD"
-  color7:  "#006BD0"
+  color7:  "#5BC236"
   advice:  "#FDFBC8"
 ---
 
@@ -25,7 +25,7 @@ body {
 
 #top-header h1 {
   color: #fff;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -56,6 +56,7 @@ body {
 #header #menu ul li a {
   text-decoration: none;
   color: #fff;
+  font-family:"Arial Rounded MT Bold", Arial, sans-serif; 
 }
 
 #menu-bar {
@@ -75,11 +76,12 @@ body {
 #menu-bar #menu ul li a {
   text-decoration: none;
   color: <%= @page.color['color2'] %>;
+  font-family:"Arial Rounded MT Bold", Arial, sans-serif; 
 }
 
 
 #footer {
-  padding: 20px 0 30px 0;
+  padding: 40px 0 30px 0;
 }
 
 #footer #menu h2 {
@@ -116,7 +118,10 @@ body {
 #content h2 {
   color: <%= @page.color['color2'] %>;
   letter-spacing: -1px;
-background: #EEE url(/images/tab_grey.gif) no-repeat left top; padding: 0.25em 1em 0.5em 48px;
+  background: #CCE3F1 url(/images/tab_grey.png) no-repeat left top; padding: 0.25em 0.5em 0.5em 48px;
+  font-family:"Arial Rounded MT Bold", Arial, sans-serif; 
+  -webkit-border-radius: 0.5em; 
+  -moz-border-radius: 0.5em;
 }
 
 #content p.advice {
@@ -127,11 +132,12 @@ background: #EEE url(/images/tab_grey.gif) no-repeat left top; padding: 0.25em 1
   line-height: 26px;
   background-color: <%= @page.color['advice'] %>;
   padding: 20px;
-  border-radius: 0.2em; 
+  border-radius: 2em; 
   -webkit-border-radius: 0.2em; 
   -moz-border-radius: 0.2em;
+  -webkit-box-shadow: 0.25em 0.25em 0.25em rgba(0,0,0,0.05);
 
-  border: 1px solid #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #content p.advice a {
@@ -145,7 +151,7 @@ background: #EEE url(/images/tab_grey.gif) no-repeat left top; padding: 0.25em 1
 
 
 .index { padding: 0.6em 14px; border-radius: 1em; -webkit-border-radius: 1em; -moz-border-radius: 1em; background: <%= @page.color['color7'] %>; position: relative; }
-.index a { background: <%= @page.color['color7'] %> url(/images/nav_arrow.gif) no-repeat right top; padding-right: 1em; position: relative; z-index: 15; padding-bottom: 0.125em; }
+.index a { background: <%= @page.color['color7'] %> url(/images/nav_arrow.gif) no-repeat right top; padding-right: 1em; position: relative; z-index: 15; padding-bottom: 0.125em;}
 .index:hover a, #header .nav .index a:hover {background-position: right -81px;}
 
 #guides { width: 400px; display: block; background: <%= @page.color['color7'] %>; border-radius: 1em; -webkit-border-radius: 1em; -moz-border-radius: 1em; -webkit-box-shadow: 0.25em 0.25em 1em rgba(0,0,0,0.25); -moz-box-shadow: rgba(0,0,0,0.25) 0.25em 0.25em 1em; color: #001526; padding: 1.5em 2em; position: absolute; z-index: 10; top: -0.25em; left: 0; padding-top: 2em; }

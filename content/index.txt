@@ -6,7 +6,7 @@ filter:
   - textile
 ---
 
-p(advice). R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. To download R, please choose your preferred <%= link_to 'CRAN mirror', '#' %>.
+p(advice). <strong>R</strong> is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. To download R, please choose your preferred <%= link_to 'CRAN mirror', '#' %>.
 
 <div class="column span-12 first last">
 h2. What's new in R?
@@ -29,8 +29,7 @@ h2. What's new in R?
 </div>
 
 <div class="column prepend-1 span-11 last">
-p. R is a language and environment for <strong>statistical computing and graphics</strong>. It is a <%= link_to 'GNU project', 'http://www.gnu.org/' %> which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R.
+  p. R is a language and environment for <strong>statistical computing and graphics</strong>. It is a <%= link_to 'GNU project', 'http://www.gnu.org/' %> which is similar to the S language and environment which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R.
 
-p. R provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering, ...) and graphical techniques, and is highly extensible. The S language is often the vehicle of choice for research in statistical methodology, and R provides an Open Source route to participation in that activity.
-d
+  p. R provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering, ...) and graphical techniques, and is highly extensible. The S language is often the vehicle of choice for research in statistical methodology, and R provides an Open Source route to participation in that activity.
 </div>
