@@ -1,6 +1,7 @@
 ---
-filter: erb
-dirty:  true
+filter:
+  - erb
 ---
+<% page = @page if @page.blog_post %>
 
-Joder csdf
+<h3><%= link_to_page(page) %></h3>
