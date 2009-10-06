@@ -1,0 +1,206 @@
+---
+extension: html
+filter:    erb
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>The R Project for Statistical Computing :: <%= @page.title %></title>
+   <meta name="author" content="<%= @page.author %>" />
+
+   <!--- Blueprint CSS Framework -->
+   <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+   <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
+   <!--[if IE]>
+      <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
+   <![endif]-->
+
+   <!-- CodeRay syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/coderay.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/css/rproject.css" type="text/css" media="screen, projection" />
+
+   <!-- Atom Feed -->
+   <link rel="alternate" type="application/atom+xml" title="Atom feed" href="atom.xml" />
+
+   <!-- Javascripts -->
+   <!-- http://spreecommerce.com/documentation/index.html based -->
+   <script>
+     function guideMenu(){
+       if (document.getElementById('guides').style.display == "none") {
+         document.getElementById('guides').style.display = "block";
+       } else {
+         document.getElementById('guides').style.display = "none";
+       }
+     }
+   </script>
+
+</head>
+
+<body>
+
+<div id='top-header'>
+  <h1>The R Project for Statistical Computing</h1>
+</div>
+
+<div id='header'>
+  <div class="container" id='header'>
+    <div id='menu' class="column span-18 first">
+		<ul class='nav'>
+		  <li><%= link_to 'Home', '/' %></li>
+          <li class="index"><a href="index.html" onclick="guideMenu(); return false;" id="guidesMenu">Guides Index</a>
+		
+		          <div id="guides" class="clearfix" style="display: none;">
+		            <dl class="L">
+		              <dt>Start Here</dt>
+		              <dd><a href="getting_started.html">Getting Started with Spree</a></dd>
+		              <dd><a href="source_code.html">Working with the Source Code</a></dd>
+		              <dd><a href="server_configuration.html">Server Configuration</a></dd>
+		              <dt>Basic Configuration</dt>
+		              <dd><a href="products_and_variants.html">Products and Variants</a></dd>
+		              <dd><a href="inventory.html">Inventory</a></dd>
+		              <dd><a href="taxonomy.html">Taxonomy/Categories</a></dd>              
+		              <dd><a href="payment_gateways.html">Payment Gateways</a></dd>
+		              <dd><a href="zones.html">Zones</a></dd>
+		              <dd><a href="calculators.html">Calculators</a></dd>              
+		              <dd><a href="taxation.html">Taxation</a></dd>
+		              <dd><a href="shipping.html">Shipping</a></dd>              
+		              <dd><a href="coupons_and_discounts.html">Coupons and Discounts</a></dd>              
+		              <dt>Best Practices</dt>
+		              <dd><a href="developer_tips.html">Developer Tips</a></dd>
+		              <dd><a href="seo_considerations.html"><span class="caps">SEO</span> Considerations</a></dd>
+		</dl>
+		<dl class="R">
+		              <dt>Customization</dt>
+		              <dd><a href="customization_tutorial.html">Customization Tutorial</a></dd>
+		              <dd><a href="extensions.html">Using Extensions</a></dd>
+		              <dd><a href="extension_tutorial.html">Extension Tutorial</a></dd>
+		              <dd><a href="checkout.html">Customizing the Checkout Process</a></dd>
+		              <dt>Digging Deeper</dt>
+		              <dd><a href="i18n.html">Internationalization/Localization</a></dd>
+		              <dd><a href="boot_modes.html">Boot Modes</a></dd>
+		              <dd><a href="testing.html">Testing Spree Applications</a></dd>
+		              <dd><a href="security.html">Securing Spree Applications</a></dd>
+		              <dd><a href="preferences.html">The Preference System</a></dd>
+		              <dd><a href="contributing_to_spree.html">Contributing to Spree</a></dd>
+		</dl>
+		</div>		
+		
+		</li>
+		  <li><%= link_to 'Contribute', '#' %></li>
+		  <li><%= link_to 'Credits', '#' %></li>						
+		</ul>	
+    </div>
+
+    <div id='logo' class="column span-6 last">
+      <img src='/images/rproject_logo.png' />
+    </div>
+  </div>
+</div>
+
+
+<div id='menu-bar'>
+  <div class="container">
+    <div id='menu' class="column span-4 first">
+		<ul>
+		  <li><%= link_to "What's is R?", 'about.html' %></li>
+		  <li><%= link_to 'Contributors', '#' %></li>
+		  <li><%= link_to 'Screenshots', '#' %></li>
+		  <li><%= link_to "What's new in R?", 'articles.html' %></li>						
+		</ul>	
+    </div>
+
+    <div id='menu' class="column span-4">
+		<ul>
+		  <li><%= link_to 'Manuals', '#' %></li>
+		  <li><%= link_to 'FAQ', '#' %></li>
+		  <li><%= link_to 'The R Journal', '#' %></li>
+		  <li><%= link_to 'Wiki', '#' %></li>					
+		</ul>
+    </div>
+
+    <div id='menu' class="column span-4">
+		<ul>
+		  <li><%= link_to 'Home', '#' %></li>
+		  <li><%= link_to 'Guides Index', '#' %></li>
+		  <li><%= link_to 'Contribute', '#' %></li>
+		  <li><%= link_to 'Credits', '#' %></li>						
+		</ul>
+    </div>
+
+
+    <div id='logo' class="column prepend-4 span-8 last">
+      <h2>The R Project</h2>
+    </div>
+  </div>
+</div>
+
+<div id='content'>
+  <div class="container">
+     <div class="column span-24 first last">
+       <%= @content %>
+     </div>
+  </div>
+</div>
+
+
+<div id='footer'>
+  <div class="container">
+    <div id='menu' class="column span-4 first">
+        <h2>The R Project</h2>
+		<ul>
+		  <li><%= link_to 'Foundation', '#' %></li>
+		  <li><%= link_to 'Members & Donors', '#' %></li>
+		  <li><%= link_to 'Mailing Lists', '#' %></li>
+		  <li><%= link_to 'Bug Tracking', '#' %></li>
+		  <li><%= link_to 'Developer Page', '#' %></li>
+		  <li><%= link_to 'Conferences', '#' %></li>
+		  <li><%= link_to 'Search', '#' %></li>
+		</ul>
+    </div>
+
+    <div id='menu' class="column span-4">
+        <h2>Documentation</h2>
+		<ul>
+		  <li><%= link_to 'Manuals', '#' %></li>
+		  <li><%= link_to 'FAQ', '#' %></li>
+		  <li><%= link_to 'The R Journal', '#' %></li>
+		  <li><%= link_to 'Wiki', '#' %></li>
+		  <li><%= link_to 'Books', '#' %></li>
+		  <li><%= link_to 'Certification', '#' %></li>
+		  <li><%= link_to 'Other', '#' %></li>
+		</ul>
+    </div>
+
+    <div id='menu' class="column span-4">
+        <h2>Misc</h2>
+		<ul>
+          <li><%= link_to 'Bioconductor', '#' %></li>
+          <li><%= link_to 'Related Projects', '#' %></li>
+          <li><%= link_to 'User Groups', '#' %></li>
+          <li><%= link_to 'Links', '#' %></li>
+		</ul>
+    </div>
+
+
+    <div id='copyright' class="column span-12 last">
+    <p>
+      This website was created with <a href="http://webby.rubyforge.org">Webby</a><br/>
+	  This work is licensed under a Creative Commons Attribution-Share Alike 3.0 License<br/>
+      This server is hosted by the Department of Statistics and Mathematics of the WU Wien.<br/>
+      Design by <%= link_to 'University of Murcia', 'http://www.um.es' %>
+    </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

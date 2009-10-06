@@ -1,0 +1,162 @@
+---
+extension: css
+filter:    erb
+layout:    nil   # no layout
+
+color:
+  color1:  "#0D203E"
+  color2:  "#122A50"
+  color3:  "#4082E0"
+  color4:  "#61ADFB"
+  color5:  "#CAEEFD"
+  color6:  "#EAF7FD"
+  color7:  "#006BD0"
+  advice:  "#FDFBC8"
+---
+
+body {
+  background-color: <%= @page.color['color2'] %>;
+}
+
+#top-header {
+  background-color: <%= @page.color['color1'] %>;
+  padding: 6px 6px 6px 20px;
+}
+
+#top-header h1 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: <%= @page.color['color2'] %>;
+  height: 90px;
+  border-bottom: 6px solid #9CCBE9;
+}
+
+#header #logo {
+  padding: 10px 0 0 0;
+}
+
+#header #menu ul {
+  list-style-type: none;
+  padding: 30px 0 0 0;
+  margin: 0;
+}
+
+#header #menu ul li {
+  display: inline;
+  padding-right: 10px;
+  font-size: 22px;
+}
+
+#header #menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#menu-bar {
+  background-color: <%= @page.color['color5'] %>;
+  border-bottom: 2px solid #A1CEEB;
+  padding: 20px 0 20px 0;
+}
+
+#menu-bar #menu ul {
+  list-style-type: none;
+  margin: 0;	
+}
+
+#menu-bar #menu ul li {
+}
+
+#menu-bar #menu ul li a {
+  text-decoration: none;
+  color: <%= @page.color['color2'] %>;
+}
+
+
+#footer {
+  padding: 20px 0 30px 0;
+}
+
+#footer #menu h2 {
+  font-size: 14px;
+  color: <%= @page.color['color4'] %>;
+}
+
+#footer #menu ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+#footer #menu ul li a {
+  text-decoration: none;
+  color: <%= @page.color['color6'] %>;
+}
+
+
+#copyright {
+  color: #97CBEA;
+  font-size: 9px;
+}
+
+#copyright a {
+  text-decoration: none;
+}
+
+#content {
+  background-color: <%= @page.color['color6'] %>;
+  color: #203E52;
+  padding: 30px 0 60px 0;
+}
+
+#content h2 {
+  color: <%= @page.color['color2'] %>;
+  letter-spacing: -1px;
+background: #EEE url(/images/tab_grey.gif) no-repeat left top; padding: 0.25em 1em 0.5em 48px;
+}
+
+#content p.advice {
+  color: #111;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  margin-bottom: 0.75em;
+  line-height: 26px;
+  background-color: <%= @page.color['advice'] %>;
+  padding: 20px;
+  border-radius: 0.2em; 
+  -webkit-border-radius: 0.2em; 
+  -moz-border-radius: 0.2em;
+
+  border: 1px solid #fff;
+}
+
+#content p.advice a {
+  text-decoration: none;
+}
+
+
+
+
+ .nav li {margin: 0 0 0 0.5em;}
+
+
+.index { padding: 0.6em 14px; border-radius: 1em; -webkit-border-radius: 1em; -moz-border-radius: 1em; background: <%= @page.color['color7'] %>; position: relative; }
+.index a { background: <%= @page.color['color7'] %> url(/images/nav_arrow.gif) no-repeat right top; padding-right: 1em; position: relative; z-index: 15; padding-bottom: 0.125em; }
+.index:hover a, #header .nav .index a:hover {background-position: right -81px;}
+
+#guides { width: 400px; display: block; background: <%= @page.color['color7'] %>; border-radius: 1em; -webkit-border-radius: 1em; -moz-border-radius: 1em; -webkit-box-shadow: 0.25em 0.25em 1em rgba(0,0,0,0.25); -moz-box-shadow: rgba(0,0,0,0.25) 0.25em 0.25em 1em; color: #001526; padding: 1.5em 2em; position: absolute; z-index: 10; top: -0.25em; left: 0; padding-top: 2em; }
+#guides dt, #guides dd { font-weight: normal; font-size: 12px; margin: 0; padding: 0; }
+#guides dt {padding:0; margin: 0.5em 0 0; font-weight: bold;}
+#guides a {color: #FFF; background: none !important;}
+#guides .L, #guides .R {float: left; width: 50%; margin: 0; padding: 0;}
+#guides .R {float: right;}
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+.clear { clear:both; }
